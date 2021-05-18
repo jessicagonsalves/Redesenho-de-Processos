@@ -5,7 +5,7 @@ function DISPONIBILIDADE(periodo_desejado, horario_colocado) {
     if (horario_desejado == string_horario[i])
       return horario_desejado;
   }
-  return '';
+  return;
 }
 
 
