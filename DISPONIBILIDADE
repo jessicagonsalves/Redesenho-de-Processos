@@ -7,3 +7,21 @@ function DISPONIBILIDADE(periodo_desejado, horario_colocado) {
   }
   return '';
 }
+
+
+/*
+
+Esse código é responsável por verificar se o horário desejado possui compatibilidade com algum dos horários fornecidos em lista. Assim, seja:
+
+período_desejado = "19h00";
+horario_colocado= "09h00, 10h00, 18h00, 19h00"
+
+O código retornará o valor "19h00" visto que ele está presente na nossa lista na variável "horario_colocado". Agora, para:
+
+período_desejado = "19h00";
+horario_colocado= "09h00, 10h00, 18h00, 20h00"
+
+O código retornará uma string vazia, ou melhor, ''.
+
+
+*/
